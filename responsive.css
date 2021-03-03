@@ -1,0 +1,114 @@
+@media only screen and (max-width: 1023px)
+{
+	.navleft
+	{
+		flex-direction: column;
+		margin-bottom: 3%;
+	}
+	.navright
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	.navbar
+	{
+		display: flex;
+		flex-direction: column;
+		height: 690px;	
+	}
+	.logo img
+	{
+		border-radius: 30px;
+		margin-left: 30%;
+		width: 30%;
+	}
+	.burger
+	{
+		display: block;
+	}
+	.navheightresp
+	{
+		height: 72px;
+	}
+	.visibilityresp
+	{
+		opacity: 0;
+	}
+	.big-text2
+	{
+		font-size: 15px;
+	}
+	.small-text2
+	{
+		font-size: 12px;
+		text-indent: initial;
+	}
+	.big-text1
+	{
+		font-size: 20px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.small-text1
+	{
+		font-size: 15px;
+	}
+	.footer
+	{
+		font-size: 10px;
+	}
+}
+
+@media only screen and (max-width: 360px)
+{
+	.big-text2
+	{
+		font-size: 12px;
+	}
+	.small-text2
+	{
+		font-size: 9px;
+	}
+	.contact p
+	{
+		font-size: 15px;
+	}
+	.contact input
+	{
+		font-size: 8px;
+	}	
+	.contact textarea
+	{
+		font-size: 8px;
+	}
+	.btn-c
+	{
+		padding-top: 4px;
+		padding-bottom: 4px;
+		padding-right: 9px;
+		padding-left: 9px;
+	}
+}
+
+@media only screen and (max-width: 377px)
+{
+	.contact p
+	{
+		font-size: 15px;
+	}
+	.contact input
+	{
+		font-size: 10px;
+	}	
+	.contact textarea
+	{
+		font-size: 10px;
+	}
+	.btn-c
+	{
+		padding-top: 6px;
+		padding-bottom: 6px;
+		padding-right: 11px;
+		padding-left: 11px;
+	}
+}
